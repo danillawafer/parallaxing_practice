@@ -1,0 +1,34 @@
+html, body {
+	padding:0;margin:0;
+}
+
+body {
+	overflow:auto;
+	height:7600px;
+}
+
+#skrollr-body {
+	width:100%; height:100%; position:fixed;
+}
+
+#skrollr-body  div {
+	overflow:hidden; position:absolute;
+}
+
+.centered {
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;
+}
+
+#happy {
+	background-image: url('smiley-face.jpeg');
+	z-index: 2;
+}
+
+#sad {
+	background-image: url('sad-baby.jpg');
+	z-index: 1;
+}
